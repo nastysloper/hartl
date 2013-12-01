@@ -36,6 +36,10 @@ group :development do
   gem 'sqlite3'
 end
 
+group :production do
+  #Use Postgres as the database for Active Record
+  gem 'pg'
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
